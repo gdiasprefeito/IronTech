@@ -1,97 +1,102 @@
 # IronTech
-Site de armaduras do Tony Stark 
-1ª Página — História de Tony Stark e a Descoberta da Tecnologia
-Objetivo
+## Site de armaduras do Tony Stark 
+### 1ª Página — História de Tony Stark e a Descoberta da Tecnologia
+#### Objetivo
 
 Contar a origem da tecnologia das armaduras e apresentar Tony Stark ao visitante.
 
-Conteúdo
-Introdução sobre Tony Stark
-História da criação do reator ARC
-Desenvolvimento da primeira armadura Mark I
-Como ele sobreviveu usando tecnologia
-Evolução da inteligência artificial 
+#### Conteúdo
+Introdução sobre Tony Stark;  
+História da criação do reator ARC;  
+Desenvolvimento da primeira armadura Mark I;  
+Como ele sobreviveu usando tecnologia;  
+Evolução da inteligência artificial;  
 
-Ideias Extras
-Linha do tempo da evolução das Marks
-Imagens do laboratório
-Frases famosas do Tony Stark
-Explicação sobre energia limpa e tecnologia avançada
+#### Ideias Extras;  
+Linha do tempo da evolução das Marks;  
+Imagens do laboratório;  
+Frases famosas do Tony Stark;  
+Explicação sobre energia limpa e tecnologia avançada;  
 
 
-2ª Página — Armaduras Clássicas
-Objetivo
+### 2ª Página — Armaduras Clássicas
+#### Objetivo
 
 Mostrar as armaduras mais famosas e antigas.
 
-Armaduras
-Mark I
-Mark II
-Mark III
-Hulkbuster
-Silver Centurion
-Conteúdo
+Armaduras;  
+Mark I;  
+Mark II;  
+Mark III;  
+Hulkbuster;  
+Silver Centurion;  
 
-Cada armadura pode ter:
+#### Conteúdo
 
-Imagem
-Ano de criação
-Material utilizado
-Velocidade
-Função principal
-Curiosidades
-Ideias Extras
-Comparação de poder entre armaduras
-Destaque para a mais resistente
-Sistema de “ficha técnica”
-Museu tecnológico futurista
+Cada armadura pode ter:  
 
-3ª Página — Armaduras Novas
-Objetivo
+Imagem;  
+Ano de criação;  
+Material utilizado;  
+Velocidade;  
+Função principal;  
+Curiosidades;  
+Ideias Extras;  
+Comparação de poder entre armaduras;  
+Destaque para a mais resistente;  
+Sistema de “ficha técnica”;  
+Museu tecnológico futurista;  
+
+### 3ª Página — Armaduras Novas
+#### Objetivo
 
 Mostrar os novos modelos vendidos pela IROHTECH.
 
-Armaduras Futuristas
-Mark Phantom
-Mark Titan
-Mark Neon
-Mark Aero
-Mark Ghost
-Conteúdo
-Preço fictício
-Recursos especiais
-Tipo de uso
-Cores disponíveis
-Sistema de voo
-Inteligência artificial integrada
-Ideias Extras
-Botão “Comprar”
-Armadura “Mais Vendida”
-Destaque “Nova Geração”
-Sistema de avaliações fictícias
+Armaduras Futuristas;  
+Mark Phantom;  
+Mark Titan;  
+Mark Neon;  
+Mark Aero;  
+Mark Ghost;  
+MarGOAT;  
+
+#### Conteúdo
+Preço fictício;  
+Recursos especiais;  
+Tipo de uso;  
+Cores disponíveis;  
+Sistema de voo;  
+Inteligência artificial integrada;  
+Ideias Extras;  
+Botão “Comprar”;  
+Armadura “Mais Vendida”;  
+Destaque “Nova Geração”;  
+Sistema de avaliações fictícias;  
 
 
-4ª Página — Formulário para Encomendas
-Objetivo
+### 4ª Página — Formulário para Encomendas
+#### Objetivo
 
 Permitir que clientes solicitem armaduras personalizadas.
 
-Campos
-Nome
-Email
-Tipo da armadura
-Cor desejada
-Área profissional
-Recursos especiais
-Mensagem personalizada
-Ideias Extras
+#### Conteúdo
+Login;  
+Campos;  
+Nome;  
+Email;  
+Tipo da armadura;  
+Cor desejada;  
+Área profissional;  
+Recursos especiais;  
+Mensagem personalizada;  
+Ideias Extras;  
 
-5ª Página — Portfólio das Armaduras nos Filmes
-Objetivo
+### 5ª Página — Portfólio das Armaduras nos Filmes
+#### Objetivo
 
 Mostrar como as armaduras foram usadas ao longo dos filmes.
 
-Conteúdo
+#### Conteúdo
 Principais batalhas
 Evolução visual das armaduras
 Uso da tecnologia em cada filme
