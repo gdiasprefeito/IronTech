@@ -40,8 +40,9 @@ Ano de criação;
 Material utilizado;  
 Velocidade;  
 Função principal;  
-Curiosidades;  
-Ideias Extras;  
+Curiosidades; 
+
+#### Ideias Extras;  
 Comparação de poder entre armaduras;  
 Destaque para a mais resistente;  
 Sistema de “ficha técnica”;  
@@ -67,7 +68,8 @@ Tipo de uso;
 Cores disponíveis;  
 Sistema de voo;  
 Inteligência artificial integrada;  
-Ideias Extras;  
+
+#### Ideias Extras;  
 Botão “Comprar”;  
 Armadura “Mais Vendida”;  
 Destaque “Nova Geração”;  
@@ -88,8 +90,9 @@ Tipo da armadura;
 Cor desejada;  
 Área profissional;  
 Recursos especiais;  
-Mensagem personalizada;  
-Ideias Extras;  
+Mensagem personalizada; 
+
+#### Ideias Extras
 
 ### 5ª Página — Portfólio das Armaduras nos Filmes
 #### Objetivo
@@ -97,44 +100,46 @@ Ideias Extras;
 Mostrar como as armaduras foram usadas ao longo dos filmes.
 
 #### Conteúdo
-Principais batalhas
-Evolução visual das armaduras
-Uso da tecnologia em cada filme
-Missões importantes
-Filmes que podem aparecer
-Iron Man
-Iron Man 2
-Iron Man 3
-Avengers: Infinity War
-Avengers: Endgame
-Ideias Extras
-Linha do tempo dos filmes
-Comparação entre versões das Marks
-“Momento mais importante” de cada armadura
-Galeria de batalhas
+Principais batalhas;  
+Evolução visual das armaduras;  
+Uso da tecnologia em cada filme;  
+Missões importantes;  
+Filmes que podem aparecer;  
+Iron Man;  
+Iron Man 2;  
+Iron Man 3;  
+Avengers: Infinity War;  
+Avengers: Endgame;  
+
+#### Ideias Extras
+Linha do tempo dos filmes;  
+Comparação entre versões das Marks;  
+“Momento mais importante” de cada armadura;  
+Galeria de batalhas;  
  
 
-6ª Página — Armadura Biomédica / Engenharia
+### 6ª Página — Armadura Biomédica / Engenharia
 Nome da Armadura
 MARK LIFE-X
-Objetivo
+
+#### Objetivo
 
 Mostrar uma armadura criada para salvar vidas e auxiliar profissionais.
 
-Conteúdo
-Armadura biomédica avançada
-Sistema de suporte de vida
-Scanner corporal
-Monitoramento cardíaco
-Inteligência artificial médica
-Transporte aéreo emergencial
-Braços mecânicos cirúrgicos
-Área de Engenharia Biomédica
+#### Conteúdo
+Armadura biomédica avançada;  
+Sistema de suporte de vida;  
+Scanner corporal;  
+Monitoramento cardíaco;  
+Inteligência artificial médica;  
+Transporte aéreo emergencial;  
+Braços mecânicos cirúrgicos;  
+Área de Engenharia Biomédica;  
 
-A armadura pode:
+##### A armadura pode:
 
-ajudar médicos em cirurgias
-carregar equipamentos pesados
-estabilizar pacientes
-entrar em áreas contaminadas
-auxiliar pessoas feridas
+ajudar médicos em cirurgias;  
+carregar equipamentos pesados;  
+estabilizar pacientes;  
+entrar em áreas contaminadas;  
+auxiliar pessoas feridas;  
