@@ -1,19 +1,23 @@
 h1,h2,h3,h4{
-    color:#B71C1C;
+    color:#B22222;
     font-size: 60px;
+    text-align: center;
 }
 div{
     font-size: 30px;
-    color:#00BFFF;
+    color:whitesmoke;
+    text-shadow: 2px 2px 5px black;
 }
 body{
     background-color: #000000;
 }
+.container{
+    background-color: #333333;
+    width: 90%;
+    max-width: 1200px;
 
-#container {
-    color: aliceblue;
-    text-shadow:
-0 0 5px #00D9FF,
-0 0 15px #00D9FF,
-0 0 30px #00D9FF;
+    margin: 20px auto;
+    padding: 20px;
+
+    border-radius: 10px;
 }
