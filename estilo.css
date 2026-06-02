@@ -17,3 +17,6 @@ body{
 0 0 15px #00D9FF,
 0 0 30px #00D9FF;
 }
+.outras-paginas{
+    flex-direction: column-reverse;
+}
