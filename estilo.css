@@ -1,9 +1,10 @@
 h1,h2,h3,h4{
     color:#B71C1C;
     font-size: 60px;
+    text-align: center;
 }
 div{
-    font-size: 30px;
+    font-size: 0px;
     color:#00BFFF;
 }
 body{
@@ -18,19 +19,23 @@ body{
 0 0 30px #00D9FF;
 }
 .outras-paginas{
-    flex-direction: column-reverse;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    position: relative;
 }
 
+
 * {
-    margin: 0;
+    margin: 60;
     padding: 0;
     box-sizing: border-box;
 }
 
 
 nav {
-    background-color: #222;    
-    padding: 20px;             
+    background-color: #B71C1C;;    
+    padding: 30px;             
     text-align: center;       
 }
 
@@ -121,4 +126,37 @@ p{
 
 .botao-entrar:hover {
     background-color: #b31010;
+}
+.colab{
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: auto;
+    
+}
+.linha{
+ border-top:yellow solid ;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+p{
+    font-size: 20px;
+}
+.comm{
+    
+    width: 700px;
+    background-color: #222222;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+    transition: 0.3s;
+    margin: auto;
+
+}
+.tony{
+    
+   border-radius: 20px;  
 }
