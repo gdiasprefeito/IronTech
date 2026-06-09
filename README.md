@@ -144,5 +144,4 @@ estabilizar pacientes;
 entrar em áreas contaminadas;  
 auxiliar pessoas feridas;  
 
-
-https://prod.liveshare.vsengsaas.visualstudio.com/join?37DC31F6A641C26B072BEEADBDBB0899BC4F
+https://prod.liveshare.vsengsaas.visualstudio.com/join?7F7A9304EAB7A91C395305A5DB282E69D21D
