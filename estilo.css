@@ -34,8 +34,8 @@ body{
 
 
 nav {
-    background-color: #B71C1C;;    
-    padding: 30px;             
+    background-color: black;;    
+    padding: 15px;             
     text-align: center;       
 }
 
@@ -164,4 +164,13 @@ p{
 
 .cima{
     background-color:#B71C1C; ;
+}
+.in{
+    width: 1300px;
+}
+.now{
+   width: 200px; 
+  display: block;
+ margin: 0 auto;
+     
 }
