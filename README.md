@@ -145,4 +145,4 @@ entrar em áreas contaminadas;
 auxiliar pessoas feridas;  
 
 
-https://prod.liveshare.vsengsaas.visualstudio.com/join?FDBA8CD8665B14041663646134B7CB0D073E
+https://prod.liveshare.vsengsaas.visualstudio.com/join?9AAA20DA86FC4F19DF2C2547487F24EC85EB
