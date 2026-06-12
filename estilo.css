@@ -1,11 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
-body{
- font-family: 'Orbitron', sans-serif;
- weight:500px;
-background-color: #111111;
+body {
+    font-family: 'Orbitron', sans-serif;
+    weight: 500px;
+    background-color: #111111;
 }
 
+.backimage {
+    background-image: url("img/parteinicia.webp");
+    background-size: 1600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-shadow: #000000 0px 0px 5px, #000000 0px 0px 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 35px;
+    gap: 50px;
+    background-size: cover;
+    border-radius: 3px;
+}
+
+.backimage p{
+    font-size: 25px;
+}
 
 h1,
 h2,
@@ -17,12 +42,11 @@ h4 {
 }
 
 div {
-    font-size: 0px;
+    font-size: 20px;
     color: white;
-   
+    margin: 20px;
+
 }
-
-
 
 #container {
     color: aliceblue;
@@ -38,8 +62,6 @@ div {
     padding: 15px;
     position: relative;
 }
-
-
 
 .secao-login {
     display: flex;
@@ -111,7 +133,6 @@ div {
 }
 
 .colab {
-    
     height: auto;
     display: block;
     margin: auto;
@@ -129,27 +150,36 @@ p {
 }
 
 .comm {
-
-    width: 700px;
+    width: 1500px;
     background-color: #222222;
     border-radius: 15px;
     padding: 20px;
     text-align: center;
-
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-
-    transition: 0.3s;
+    transition: 0.4s;
     margin: auto;
-
 }
 
 .tony {
-
+    width: 700px;
+    height: auto;
     border-radius: 20px;
 }
 
 .film {
     width: 500px;
+}
+
+.desf {
+    width: 1000px;
+    background-color: #222222;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    margin: auto;
 }
 
 .cima {
@@ -158,17 +188,10 @@ p {
     gap: 20px;
     background-color: #000000;
 }
-.cima img{
+
+.cima img {
     width: 300px;
     border-radius: 10px;
-}
-
-
-
-.in {
-    width: 1900px;
-    background-blend-mode: darken;
-
 }
 
 .logos {
@@ -217,17 +240,13 @@ p {
 }
 
 * {
-    margin: 20;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-
 header {
     background: linear-gradient(to right, #111111, #1f1f1f, #111111);
     border-bottom: 2px solid #222;
-
 }
 
 nav {
@@ -290,9 +309,49 @@ nav a:hover {
 }
 
 .fotoarm {
-    width: 100%;
-    height: auto;
+    width: 500px;
+    height: 700px;
     border-radius: 8px;
-    max-width: 500px;
-    max-height: 500px;
+    
+    display: block;
+    margin: auto;
+}
+.mum{
+    width: 500px;
+    height: 700px;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+}
+
+
+.auau {
+    display: block;
+    margin: 15px auto;
+    background-color: #222222;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    margin: auto;
+}
+
+.jarvis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #29BEF0;
+}
+
+.filmes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
