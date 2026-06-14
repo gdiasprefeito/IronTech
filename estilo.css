@@ -355,3 +355,158 @@ a {
     justify-content: center;
     gap: 20px;
 }
+.container-compras {
+    display: block;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #111111;
+    border: 2px solid #d4af37;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.container-compras h2 {
+    text-align: center;
+    
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #d4af37;
+    padding-bottom: 10px;
+}
+
+.grade-armaduras {
+    display: block;
+    width: 100%;
+    font-size: 0;
+    box-sizing: border-box;
+}
+
+.card-compra {
+    display: inline-block;
+    width: calc(50% - 20px);
+    margin: 10px 10px 30px 10px;
+    vertical-align: top;
+    border-top: 4px solid #d4af37;
+    border-radius: 4px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.card-compra h3 {
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card-compra .descricao-armadura {
+    color: #aaaaaa;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: left;
+    height: 4.5em;
+    overflow: hidden;
+}
+
+.card-compra .preco {
+    color: #ff3333;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.botao-comprar {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #c8102e;
+    color: #ffffff;
+    border: 1px solid #900c22;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background 0.3s ease;
+}
+
+.botao-comprar:hover {
+    background-color: #e41b36;
+}
+
+.imagem-armadura {
+    display: block;
+    width: 100%;
+    height: 320px;
+    object-fit: contain;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.grade-armaduras {
+    display: block;
+    width: 100%;
+    font-size: 0;
+    box-sizing: border-box;
+}
+
+.card-compra {
+    display: inline-block;
+    width: calc(50% - 20px);
+    margin: 10px 10px 30px 10px;
+    vertical-align: top;
+    border-top: 4px solid #d4af37;
+    border-radius: 4px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.card-compra img {
+    display: block;
+    width: 100%;
+    height: 320px;
+    object-fit: contain;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.card-compra h3 {
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card-compra .descricao-armadura {
+    color: #aaaaaa;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: left;
+    height: 4.5em;
+    overflow: hidden;
+}
+
+.card-compra .preco {
+    color: #ff3333;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.botao-comprar {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #c8102e;
+    color: #ffffff;
+    border: 1px solid #900c22;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background 0.3s ease;
+}
+
+.botao-comprar:hover {
+    background-color: #e41b36;
+}
