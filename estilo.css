@@ -497,9 +497,9 @@ a {
     display: block;
     width: 100%;
     padding: 12px;
-    background-color: #c8102e;
+    background-color: #900c22;
     color: #ffffff;
-    border: 1px solid #900c22;
+    border: 1px solid #000000;
     border-radius: 4px;
     cursor: pointer;
     font-weight: bold;
@@ -508,5 +508,5 @@ a {
 }
 
 .botao-comprar:hover {
-    background-color: #e41b36;
+    background-color: #2ee416;
 }
