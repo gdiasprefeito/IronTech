@@ -3,7 +3,8 @@
 body {
     font-family: 'Orbitron', sans-serif;
     weight: 500px;
-    background-color: #111111;
+    background-color: ;
+    background-color:#121212 ;
 }
 
 .backimage {
@@ -32,14 +33,19 @@ body {
     font-size: 25px;
 }
 
-h1,
-h2,
-h3,
-h4 {
-    color: #da0909;
+h1{
+    color:#b30000 ;
     font-size: 60px;
     text-align: center;
 }
+h2,
+h3,
+h4 {
+    color: #ffd700;
+    font-size: 60px;
+    text-align: center;
+}
+
 
 div {
     font-size: 20px;
@@ -104,7 +110,7 @@ div {
 .campo input {
     width: 100%;
     padding: 10px;
-    background-color: #222222;
+    background-color: black;
     border: 1px solid #444444;
     border-radius: 4px;
     box-sizing: border-box;
@@ -151,7 +157,7 @@ p {
 
 .comm {
     width: 1500px;
-    background-color: #222222;
+    background-color: black;
     border-radius: 15px;
     padding: 20px;
     text-align: center;
@@ -172,7 +178,7 @@ p {
 
 .desf {
     width: 1000px;
-    background-color: #222222;
+    background-color: black;
     border-radius: 15px;
     padding: 20px;
     text-align: center;
@@ -206,7 +212,7 @@ p {
     margin: 30px auto;
     padding: 20px;
     display: flex;
-    flex-direction: column;
+   
     gap: 25px;
 }
 
@@ -252,22 +258,20 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    align-items: center;
+    gap: 25px;
+    background-color: #111;
+    padding: 18px;
 
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
     font-weight: bold;
-    text-transform: uppercase;
-
-    padding: 25px 35px;
-
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 1s;
     position: relative;
-
-    transition: 0.3s;
 }
 
 
@@ -292,43 +296,42 @@ nav a:last-child::before {
 nav a::after {
     content: "";
     position: absolute;
-    left: 50%;
-    bottom: 0;
+    left: 0;
+    bottom: 5px;
     width: 0;
-    height: 3px;
-    background: #29BEF0;
-
-    transition: 0.3s;
-    transform: translateX(-50%);
+    height: 2px;
+    background-color: white;
+    transition: 0.7s;
 }
 
 
 
 nav a:hover {
-    color: #29BEF0;
+    color: yellow;
 }
 
 .fotoarm {
-    width: 500px;
-    height: 700px;
+    width: 300px;
+    height: 300px;
     border-radius: 8px;
     
     display: block;
     margin: auto;
 }
 .mum{
-    width: 500px;
-    height: 700px;
+    width: 300px;
+    height: 300px;
     border-radius: 8px;
     display: block;
     margin: auto;
+    
 }
 
 
 .auau {
     display: block;
     margin: 15px auto;
-    background-color: #222222;
+    background-color: black;
     border-radius: 10px;
     padding: 10px;
     text-align: center;
@@ -364,6 +367,7 @@ a {
     border: 2px solid #d4af37;
     border-radius: 8px;
     box-sizing: border-box;
+    
 }
 
 .container-compras h2 {
@@ -509,4 +513,37 @@ a {
 
 .botao-comprar:hover {
     background-color: #2ee416;
+}
+footer {
+    background-color: #000;
+    color: #d4af37;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 2px solid #8b0000;
+}
+
+.rodape-conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape-texto {
+    text-align: center;
+    flex: 1;
+}
+
+.logo-stark {
+    width: 100px;
+    margin-top: 10px;
+}
+
+.github-link img {
+    width: 45px;
+    height: 45px;
+    transition: 0.3s;
+}
+
+.github-link img:hover {
+    transform: scale(1.15);
 }
