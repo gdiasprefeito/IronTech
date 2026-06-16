@@ -3,7 +3,6 @@
 body {
     font-family: 'Orbitron', sans-serif;
     weight: 500px;
-    background-color: ;
     background-color:#121212 ;
 }
 
@@ -546,4 +545,39 @@ footer {
 
 .github-link img:hover {
     transform: scale(1.15);
+}
+
+.quemsomos {
+    position: relative;
+    display: block;
+    width: 50%;
+    max-width: 400px;
+    margin: 20px auto; 
+}
+
+
+.fotodosmembros {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 10px;
+    margin-top: 60px;
+    flex-direction: column;
+}
+
+
+.redes-sociais {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.fotodogabrielr{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
