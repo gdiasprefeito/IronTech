@@ -143,6 +143,3 @@ carregar equipamentos pesados;
 estabilizar pacientes;  
 entrar em áreas contaminadas;  
 auxiliar pessoas feridas;  
-
-
-https://prod.liveshare.vsengsaas.visualstudio.com/join?9AAA20DA86FC4F19DF2C2547487F24EC85EB
