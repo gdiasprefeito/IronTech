@@ -1,10 +1,119 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
+header {
+    border-bottom: 2px solid #222;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #111;
+    padding: 18px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 1s;
+    position: relative;
+}
+
+nav a::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 20%;
+    width: 1px;
+    height: 60%;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+nav a:last-child::before {
+    display: none;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: 0.7s;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/*- - - - Acima tem o CSS do header(navs), abaixo do footer - - - -*/
+
+footer {
+    background-color: #000;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 2px solid #8b0000;
+}
+
+.github-link img {
+    width: 40px;
+    height: 40px;
+    transition: 0.4s;
+    margin-right: 10px;
+}
+
+.github-link img:hover {
+    transform: scale(1.15);
+}
+
+/*- - - - Acima tem o CSS do footer, abaixo do body - - - -*/
+
 body {
     font-family: 'Orbitron', sans-serif;
-    weight: 500px;
-    background-color:#121212 ;
+    background-color: #0e0d0d;
 }
+
+/*- - - - Acima tem o CSS do body, abaixo dos elementos - - - -*/
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    font-size: 20px;
+    color: white;
+}
+
+h1 {
+    color: #b30000;
+    font-size: 60px;
+    text-align: center;
+}
+
+h2,
+h3,
+h4 {
+    color: #ffd700;
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00D9FF
+}
+
+/*- - - - Acima tem o CSS dos elementos, abaixo classes e ids - - - -*/
 
 .backimage {
     background-image: url("img/parteinicia.webp");
@@ -28,30 +137,118 @@ body {
     border-radius: 3px;
 }
 
-.backimage p{
+.backimage p {
     font-size: 25px;
 }
 
-h1{
-    color:#b30000 ;
-    font-size: 60px;
+.audiodiv {
+    display: block;
+    margin: 15px auto;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
     text-align: center;
-}
-h2,
-h3,
-h4 {
-    color: #ffd700;
-    font-size: 60px;
-    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    width: 1600px;
+    margin: 15px auto;
 }
 
+.jarvis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-div {
-    font-size: 20px;
+.rodape-conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape-texto {
+    text-align: center;
+    flex: 1;
+}
+
+.logo-stark {
+    width: 100px;
+    margin-top: 10px;
+}
+
+/* Acima tem maioria dos codigos da página Index, 
+abaixo tem maioria dos codigos da página Quem somos */
+
+.comm {
+    width: 1500px;
+    background-color: black;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: 0.4s;
+    margin: auto;
+}
+
+.perfil-criador {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #111111;
+    border: 2px solid #00d9ff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    box-shadow: 0 0 18px rgba(0, 217, 255, 0.4);
+}
+
+.foto-criador {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #00d9ff;
+}
+
+.info-criador h2 {
+    color: #00d9ff;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.redes-criador {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.redes-criador a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #000;
     color: white;
-    margin: 20px;
-
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #00d9ff;
+    border-radius: 6px;
+    transition: 0.3s;
 }
+
+.redes-criador a:hover {
+    background-color: #00d9ff;
+    color: #000;
+    box-shadow: 0 0 15px #00d9ff;
+}
+
+.redes-criador img {
+    width: 28px;
+    height: 28px;
+}
+
+/* Acima tem maioria dos codigos da página Quem somos, 
+abaixo tem maioria dos codigos da página Tony */
 
 #container {
     color: aliceblue;
@@ -59,6 +256,15 @@ div {
         0 0 5px #00D9FF,
         0 0 15px #00D9FF,
         0 0 30px #00D9FF;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
 }
 
 .outras-paginas {
@@ -137,12 +343,7 @@ div {
     background-color: #b31010;
 }
 
-.colab {
-    height: auto;
-    display: block;
-    margin: auto;
-    background-color: #d4af37;
-}
+
 
 .linha {
     border-top: yellow solid;
@@ -150,20 +351,7 @@ div {
     margin-top: 25px;
 }
 
-p {
-    font-size: 20px;
-}
 
-.comm {
-    width: 1500px;
-    background-color: black;
-    border-radius: 15px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    transition: 0.4s;
-    margin: auto;
-}
 
 .tony {
     width: 700px;
@@ -183,20 +371,8 @@ p {
     text-align: center;
     height: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    transition: 0.3s;
+    transition: 0.4;
     margin: auto;
-}
-
-.cima {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    background-color: #000000;
-}
-
-.cima img {
-    width: 300px;
-    border-radius: 10px;
 }
 
 .logos {
@@ -204,15 +380,6 @@ p {
     display: block;
     margin: 0 auto;
     margin-left: 20px;
-}
-
-.container {
-    max-width: 1000px;
-    margin: 30px auto;
-    padding: 20px;
-    display: flex;
-   
-    gap: 25px;
 }
 
 .armadura {
@@ -244,119 +411,42 @@ p {
     margin-bottom: 0;
 }
 
-* {
-    padding: 0;
-    box-sizing: border-box;
-}
-
-header {
-    background: linear-gradient(to right, #111111, #1f1f1f, #111111);
-    border-bottom: 2px solid #222;
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    background-color: #111;
-    padding: 18px;
-
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: 1s;
-    position: relative;
-}
-
-
-
-nav a::before {
-    content: "";
-    position: absolute;
-    right: 0;
-    top: 20%;
-    width: 1px;
-    height: 60%;
-    background: rgba(255, 255, 255, 0.15);
-}
-
-nav a:last-child::before {
-    display: none;
-}
-
-
-
-
-nav a::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 5px;
-    width: 0;
-    height: 2px;
-    background-color: white;
-    transition: 0.7s;
-}
-
-
-
-nav a:hover {
-    color: yellow;
-}
-
 .fotoarm {
     width: 300px;
     height: 300px;
     border-radius: 8px;
-    
+
     display: block;
     margin: auto;
 }
-.mum{
+
+.fotoarm {
+    width: 100%;
+    height: 230px;
+    border-radius: 8px;
+    object-fit: cover;
+    display: block;
+    margin: 15px auto;
+    transition: 0.4s;
+}
+
+.mum {
     width: 300px;
     height: 300px;
     border-radius: 8px;
     display: block;
     margin: auto;
-    
+
 }
 
 
-.auau {
-    display: block;
-    margin: 15px auto;
-    background-color: black;
-    border-radius: 10px;
-    padding: 10px;
-    text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    transition: 0.5s;
-    margin: auto;
-}
-
-.jarvis {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #29BEF0;
-}
 
 .filmes {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
+
 .container-compras {
     display: block;
     max-width: 1200px;
@@ -366,12 +456,15 @@ a {
     border: 2px solid #d4af37;
     border-radius: 8px;
     box-sizing: border-box;
-    
+
 }
+
+
+    
 
 .container-compras h2 {
     text-align: center;
-    
+
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 40px;
@@ -446,6 +539,7 @@ a {
     border-radius: 4px;
     margin-bottom: 15px;
 }
+
 .grade-armaduras {
     display: block;
     width: 100%;
@@ -513,46 +607,13 @@ a {
 .botao-comprar:hover {
     background-color: #2ee416;
 }
-footer {
-    background-color: #000;
-    color: #d4af37;
-    padding: 20px;
-    margin-top: 40px;
-    border-top: 2px solid #8b0000;
-}
-
-.rodape-conteudo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.rodape-texto {
-    text-align: center;
-    flex: 1;
-}
-
-.logo-stark {
-    width: 100px;
-    margin-top: 10px;
-}
-
-.github-link img {
-    width: 45px;
-    height: 45px;
-    transition: 0.3s;
-}
-
-.github-link img:hover {
-    transform: scale(1.15);
-}
 
 .quemsomos {
     position: relative;
     display: block;
     width: 50%;
     max-width: 400px;
-    margin: 20px auto; 
+    margin: 20px auto;
 }
 
 
@@ -575,12 +636,13 @@ footer {
     justify-content: space-around;
 }
 
-.fotodogabrielr{
+.fotodogabrielr {
     height: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
 }
+
 .container-compras {
     max-width: 1400px;
     margin: 30px auto;
@@ -589,12 +651,6 @@ footer {
     border: 2px solid #d4af37;
     border-radius: 8px;
     box-sizing: border-box;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 25px;
 }
 
 .armadura {
@@ -627,20 +683,13 @@ footer {
     text-align: center;
 }
 
-.fotoarm {
-    width: 100%;
-    height: 230px;
-    border-radius: 8px;
-    object-fit: cover;
-    display: block;
-    margin: 15px auto;
-    transition: 0.4s;
-}
+
 
 .armadura:hover .fotoarm {
     transform: translateY(-8px) scale(1.03);
-    
+
 }
+
 .filmes {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -681,68 +730,14 @@ footer {
 }
 
 .imagem-link:hover {
-   transform: translateY(-8px) scale(1.03);
+    transform: translateY(-8px) scale(1.03);
     box-shadow: 0 0 18px #00d9ff, 0 0 30px #0077ff;
 }
-.bioarm{
+
+.bioarm {
     width: 400px;
 }
-.perfil-criador {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 25px;
-    background-color: #111111;
-    border: 2px solid #00d9ff;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    gap: 25px;
-    box-shadow: 0 0 18px rgba(0, 217, 255, 0.4);
-}
 
-.foto-criador {
-    width: 170px;
-    height: 170px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 3px solid #00d9ff;
-}
-
-.info-criador h2 {
-    color: #00d9ff;
-    font-size: 35px;
-    margin-bottom: 20px;
-}
-
-.redes-criador {
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
-}
-
-.redes-criador a {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    background-color: #000;
-    color: white;
-    text-decoration: none;
-    padding: 10px 15px;
-    border: 1px solid #00d9ff;
-    border-radius: 6px;
-    transition: 0.3s;
-}
-
-.redes-criador a:hover {
-    background-color: #00d9ff;
-    color: #000;
-    box-shadow: 0 0 15px #00d9ff;
-}
-
-.redes-criador img {
-    width: 28px;
-    height: 28px;
-}
 .tabela-recomendacoes {
     max-width: 1000px;
     margin: 40px auto;
